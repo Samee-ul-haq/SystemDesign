@@ -11,4 +11,5 @@ public class ParkingFloor {
         this.floorNumber=floorNumber;
         this.spots=new ConcurrentHashMap<>();
     }
+    
 }
