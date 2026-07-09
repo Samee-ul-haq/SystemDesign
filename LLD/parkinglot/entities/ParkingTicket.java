@@ -32,6 +32,9 @@ public class ParkingTicket{
     public long getEntryTimestamp(){
         return entryTimeStamp;
     }
+    public long getExitTimestamp(){
+        return exitTimeStamp;
+    }
     public void setExitTimestamp(){
         this.exitTimeStamp = new Date().getTime();
     }

@@ -16,11 +16,11 @@ public class ParkingSpot {
         this.spotSize=spotSize;
         this.parkedVehicle=null;
     }
-    String getSpotId(){
+    public String getSpotId(){
         return spotId;
     }
 
-    VehicleSize getSpotSize(){
+    public VehicleSize getSpotSize(){
         return spotSize;
     }
 
