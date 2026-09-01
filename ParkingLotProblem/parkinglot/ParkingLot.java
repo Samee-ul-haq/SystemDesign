@@ -10,7 +10,7 @@ import parkinglot.entities.ParkingTicket;
 public class ParkingLot{
     private static ParkingLot instance;
     private final List<ParkingFloor>floors = new ArrayList<>();
-    private final Map<String, ParkingTicket> activeTokens;
+    private final Map<String, ParkingTicket> activeTickets;
     private FeeStrategy feeStrategy;
     
 }
